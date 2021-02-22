@@ -1,0 +1,70 @@
+body {
+    display: grid;
+    justify-content: stretch;
+    grid-template-columns: 24% 56% 20%;
+    grid-template-rows: 19% 8% 76% 10%;
+    margin: 1%;
+    gap: 5px;
+}
+header {
+    justify-content: end;
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 1;
+    align-items: center;
+    grid-template-columns: 45% 20% auto;
+    background-color: blue;
+    color: white;
+    font-family: "verdana,Geneva,san-serif";
+    border-bottom: solid 3px black;
+    border-top: solid 3px black;
+}
+nav {
+    background-color: darkcyan;
+    grid-column: 1/4;
+    text-align: end;
+    align-self: center;
+    align-items: stretch;
+    padding: 12px;
+    border-bottom: solid 3px black;
+    border-top: solid 3px black;
+}
+main {
+    display: grid;
+    border: solid 1.5px black;
+    grid-column: 1;
+    justify-content: stretch;
+    justify-items: center;
+    background-color: lightblue;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: solid 3px black;
+}
+form {
+    padding-left: 2%;
+    padding-right: 2%;
+    align-items: center;
+    display: grid;
+    align-content: stretch;
+    grid-column: 2/4;
+    background-color: lightblue;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 1.5px black;
+    font-size: 19px;
+    border-bottom: solid 3px black;
+    border-top: solid 3px black;
+    display: inline-block;
+}
+footer {
+    display: flex;
+    grid-column: 1/4;
+    justify-content: space-around;
+    justify-self: auto;
+    align-items: center;
+    background-color: cornflowerblue;
+    color: black;
+    font-size: 15px;
+    border-bottom: solid 3px black;
+    border-top: solid 3px black;
+}
